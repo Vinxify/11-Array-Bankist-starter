@@ -463,7 +463,7 @@ const eurToUsd = 1.1;
 // // Numbers
 // console.log(movements);
 
-const arr = [1, 2, 4, 5, 67, 7];
+const arr = [1, 2, 4, 5, 67, 7, 8];
 
 const x = new Array(7);
 console.log(x);
