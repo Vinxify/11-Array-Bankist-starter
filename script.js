@@ -463,24 +463,22 @@ const eurToUsd = 1.1;
 // // Numbers
 // console.log(movements);
 
-const arr = [1, 2, 4, 5, 67, 7, 8];
+// const arr = [1, 2, 4, 5, 67, 7, 8];
 
-const x = new Array(7);
-console.log(x);
+// const x = new Array(7);
 
-x.fill(1, 4, 5);
-console.log(x);
+// x.fill(1, 4, 5);
 
-arr.fill(24, 2, 4);
-console.log(arr);
+// arr.fill(24, 2, 4);
+// console.log(arr);
 
-// Array.from on the constructor
+// // Array.from on the constructor
 
-const y = Array.from({ length: 7 }, () => 1);
-console.log(y);
+// const y = Array.from({ length: 7 }, () => 1);
+// console.log(y);
 
-const z = Array.from({ length: 7 }, (cur, i) => i + 1);
-console.log(z);
+// const z = Array.from({ length: 7 }, (cur, i) => i + 1);
+// console.log(z);
 
 labelBalance.addEventListener('click', function () {
   const movementUI = Array.from(
